@@ -1,0 +1,79 @@
+2025-07-19 19:27:03,087 - INFO - === 系统资源检查 ===
+2025-07-19 19:27:04,104 - INFO - CPU核心数: 128
+2025-07-19 19:27:04,104 - INFO - CPU使用率: 2.9%
+2025-07-19 19:27:04,104 - INFO - 内存总量: 128.0 GB
+2025-07-19 19:27:04,105 - INFO - 内存使用率: 0.6%
+2025-07-19 19:27:04,105 - INFO - GPU数量: 1
+2025-07-19 19:27:04,206 - INFO - GPU 0: NVIDIA A800 80GB PCIe (79.2 GB)
+2025-07-19 19:27:04,206 - INFO -   GPU 0 内存使用: 0.00 GB (已分配) / 0.00 GB (已保留)
+2025-07-19 19:27:04,206 - INFO - === GPU优化设置 ===
+2025-07-19 19:27:04,206 - INFO - 启用TF32优化
+2025-07-19 19:27:04,207 - INFO - 启用cuDNN benchmark
+2025-07-19 19:27:04,207 - INFO - 设置CUDA环境变量
+2025-07-19 19:27:31,084 - INFO - === 系统资源检查 ===
+2025-07-19 19:27:32,102 - INFO - CPU核心数: 128
+2025-07-19 19:27:32,102 - INFO - CPU使用率: 3.0%
+2025-07-19 19:27:32,102 - INFO - 内存总量: 128.0 GB
+2025-07-19 19:27:32,102 - INFO - 内存使用率: 0.6%
+2025-07-19 19:27:32,103 - INFO - GPU数量: 1
+2025-07-19 19:27:32,235 - INFO - GPU 0: NVIDIA A800 80GB PCIe (79.2 GB)
+2025-07-19 19:27:32,236 - INFO -   GPU 0 内存使用: 0.00 GB (已分配) / 0.00 GB (已保留)
+2025-07-19 19:27:32,237 - INFO - === GPU优化设置 ===
+2025-07-19 19:27:32,237 - INFO - 启用TF32优化
+2025-07-19 19:27:32,237 - INFO - 启用cuDNN benchmark
+2025-07-19 19:27:32,237 - INFO - 设置CUDA环境变量
+2025-07-19 19:28:38,493 - INFO - === 开始GPU优化训练 ===
+2025-07-19 19:28:38,493 - INFO - 训练配置: 批次大小=16, 学习率=0.0001, 最大轮数=3
+2025-07-19 19:28:38,494 - INFO - === 系统资源检查 ===
+2025-07-19 19:28:39,510 - INFO - CPU核心数: 128
+2025-07-19 19:28:39,511 - INFO - CPU使用率: 2.9%
+2025-07-19 19:28:39,511 - INFO - 内存总量: 128.0 GB
+2025-07-19 19:28:39,511 - INFO - 内存使用率: 0.6%
+2025-07-19 19:28:39,511 - INFO - GPU数量: 1
+2025-07-19 19:28:39,630 - INFO - GPU 0: NVIDIA A800 80GB PCIe (79.2 GB)
+2025-07-19 19:28:39,631 - INFO -   GPU 0 内存使用: 0.00 GB (已分配) / 0.00 GB (已保留)
+2025-07-19 19:28:39,631 - INFO - === GPU优化设置 ===
+2025-07-19 19:28:39,631 - INFO - 启用TF32优化
+2025-07-19 19:28:39,631 - INFO - 启用cuDNN benchmark
+2025-07-19 19:28:39,631 - INFO - 设置CUDA环境变量
+2025-07-19 19:28:39,631 - INFO - 加载数据集...
+2025-07-19 19:28:45,816 - INFO - 训练样本数量: 7199
+2025-07-19 19:28:45,816 - INFO - 验证样本数量: 501
+2025-07-19 19:28:45,816 - INFO - 测试样本数量: 2401
+2025-07-19 19:28:59,061 - INFO - 创建模型...
+2025-07-19 19:28:59,065 - ERROR - 训练过程中出现错误: can't set attribute 'device'
+2025-07-19 19:57:00,005 - INFO - === 开始GPU优化训练 ===
+2025-07-19 19:57:00,005 - INFO - 训练配置: 批次大小=128, 学习率=0.0002, 最大轮数=5
+2025-07-19 19:57:00,006 - INFO - === 系统资源检查 ===
+2025-07-19 19:57:01,023 - INFO - CPU核心数: 128
+2025-07-19 19:57:01,023 - INFO - CPU使用率: 2.5%
+2025-07-19 19:57:01,023 - INFO - 内存总量: 128.0 GB
+2025-07-19 19:57:01,024 - INFO - 内存使用率: 0.7%
+2025-07-19 19:57:01,024 - INFO - GPU数量: 1
+2025-07-19 19:57:01,183 - INFO - GPU 0: NVIDIA A800 80GB PCIe (79.2 GB)
+2025-07-19 19:57:01,183 - INFO -   GPU 0 内存使用: 0.00 GB (已分配) / 0.00 GB (已保留)
+2025-07-19 19:57:01,184 - INFO - === GPU优化设置 ===
+2025-07-19 19:57:01,184 - INFO - 启用TF32优化
+2025-07-19 19:57:01,184 - INFO - 启用cuDNN benchmark
+2025-07-19 19:57:01,184 - INFO - 设置CUDA环境变量
+2025-07-19 19:57:01,184 - INFO - 加载数据集...
+2025-07-19 19:57:08,039 - INFO - 训练样本数量: 7199
+2025-07-19 19:57:08,039 - INFO - 验证样本数量: 501
+2025-07-19 19:57:08,039 - INFO - 测试样本数量: 2401
+2025-07-19 19:57:21,005 - INFO - 创建模型...
+2025-07-19 19:57:21,008 - INFO - 设备管理器初始化，使用设备: cuda
+2025-07-19 19:57:26,935 - INFO - === 创建优化Trainer ===
+2025-07-19 19:57:26,937 - INFO - 使用GPU优化配置
+2025-07-19 19:57:26,948 - INFO - 开始训练...
+2025-07-19 20:13:21,244 - ERROR - 训练过程中出现错误: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/megrez-tmp/custom_pip_packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+  File "/root/megrez-tmp/custom_pip_packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "/root/megrez-tmp/MemeCLIP/code/enhanced_datasets.py", line 141, in __call__
+    pixel_values.to(self.cfg.device),
+  File "/root/megrez-tmp/custom_pip_packages/torch/cuda/__init__.py", line 358, in _lazy_init
+    raise RuntimeError(
+RuntimeError: Cannot re-initialize CUDA in forked subprocess. To use CUDA with multiprocessing, you must use the 'spawn' start method
+

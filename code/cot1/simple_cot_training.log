@@ -1,0 +1,400 @@
+2025-07-19 18:17:33,623 - INFO - === 测试CoT模块 ===
+2025-07-19 18:17:33,656 - INFO - CoT模块测试成功!
+2025-07-19 18:17:33,656 - INFO - 推理特征形状: torch.Size([1, 64])
+2025-07-19 18:17:33,656 - INFO - 推理文本: Analyze visual content: A person in an image | Analyze text content: Sample text 1 | Analyze interaction between visual and text | Identify potential harmful elements | Make final classification
+2025-07-19 18:17:55,628 - INFO - === 测试数据集 ===
+2025-07-19 18:17:58,326 - INFO - 数据集加载成功，样本数量: 7199
+2025-07-19 18:18:05,084 - INFO - 样本键: ['image', 'text', 'label', 'idx_meme', 'origin_text', 'image_description']
+2025-07-19 18:18:05,084 - INFO - 图像描述: An image with visual content and overlaid text
+2025-07-19 18:18:05,084 - INFO - 文本内容: 妈妈：如果你朋友从悬崖上 跳下来，你也会跳吗！ 我：我会先跳！ 我媽: 
+2025-07-19 18:18:19,024 - INFO - 批处理键: ['labels', 'idx_memes', 'image_descriptions', 'text_contents', 'image_features', 'text_features']
+2025-07-19 18:18:19,024 - INFO - 图像特征形状: torch.Size([1, 768])
+2025-07-19 18:18:19,024 - INFO - 文本特征形状: torch.Size([1, 768])
+2025-07-19 18:18:19,024 - INFO - 数据集测试成功!
+2025-07-19 18:18:36,794 - INFO - === 开始简化CoT训练 ===
+2025-07-19 18:18:36,794 - INFO - 训练配置: 批次大小=16, 学习率=0.0001, 最大轮数=3
+2025-07-19 18:18:43,335 - INFO - 训练样本数量: 7199
+2025-07-19 18:18:43,335 - INFO - 验证样本数量: 501
+2025-07-19 18:18:43,335 - INFO - 测试样本数量: 2401
+2025-07-19 18:19:05,407 - INFO - 开始训练简化CoT模型...
+2025-07-19 18:21:04,038 - ERROR - 训练过程中出现错误: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
+2025-07-19 18:44:56,015 - INFO - === 测试CoT模块 ===
+2025-07-19 18:44:56,048 - INFO - CoT模块测试成功!
+2025-07-19 18:44:56,048 - INFO - 推理特征形状: torch.Size([1, 64])
+2025-07-19 18:44:56,048 - INFO - 推理文本: Analyze visual content: A person in an image | Analyze text content: Sample text 1 | Analyze interaction between visual and text | Identify potential harmful elements | Make final classification
+2025-07-19 18:45:19,429 - INFO - === 测试数据集 ===
+2025-07-19 18:45:22,057 - INFO - 数据集加载成功，样本数量: 7199
+2025-07-19 18:45:28,823 - INFO - 样本键: ['image', 'text', 'label', 'idx_meme', 'origin_text', 'image_description']
+2025-07-19 18:45:28,824 - INFO - 图像描述: An image with visual content and overlaid text
+2025-07-19 18:45:28,824 - INFO - 文本内容: 妈妈：如果你朋友从悬崖上 跳下来，你也会跳吗！ 我：我会先跳！ 我媽: 
+2025-07-19 18:45:41,556 - INFO - 批处理键: ['labels', 'idx_memes', 'image_descriptions', 'text_contents', 'image_features', 'text_features']
+2025-07-19 18:45:41,556 - INFO - 图像特征形状: torch.Size([1, 768])
+2025-07-19 18:45:41,557 - INFO - 文本特征形状: torch.Size([1, 768])
+2025-07-19 18:45:41,557 - INFO - 数据集测试成功!
+2025-07-19 18:46:19,536 - INFO - === 开始简化CoT训练 ===
+2025-07-19 18:46:19,536 - INFO - 训练配置: 批次大小=16, 学习率=0.0001, 最大轮数=3
+2025-07-19 18:46:25,861 - INFO - 训练样本数量: 7199
+2025-07-19 18:46:25,861 - INFO - 验证样本数量: 501
+2025-07-19 18:46:25,861 - INFO - 测试样本数量: 2401
+2025-07-19 18:46:46,813 - INFO - 开始训练简化CoT模型...
+2025-07-19 18:48:34,526 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 18:48:34,526 - INFO - 模型设备: cuda:0
+2025-07-19 18:48:34,527 - INFO - 批次张量设备分布:
+2025-07-19 18:48:34,527 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 18:48:34,870 - ERROR - 训练过程中出现错误: Tensors must have same number of dimensions: got 2 and 3
+2025-07-19 18:57:27,941 - INFO - === 测试CoT模块 ===
+2025-07-19 18:57:27,993 - INFO - CoT模块测试成功!
+2025-07-19 18:57:27,993 - INFO - 推理特征形状: torch.Size([1, 64])
+2025-07-19 18:57:27,993 - INFO - 推理文本: Analyze visual content: A person in an image | Analyze text content: Sample text 1 | Analyze interaction between visual and text | Identify potential harmful elements | Make final classification
+2025-07-19 18:57:33,503 - INFO - === 测试数据集 ===
+2025-07-19 18:57:36,116 - INFO - 数据集加载成功，样本数量: 7199
+2025-07-19 18:57:42,843 - INFO - 样本键: ['image', 'text', 'label', 'idx_meme', 'origin_text', 'image_description']
+2025-07-19 18:57:42,844 - INFO - 图像描述: An image with visual content and overlaid text
+2025-07-19 18:57:42,844 - INFO - 文本内容: 妈妈：如果你朋友从悬崖上 跳下来，你也会跳吗！ 我：我会先跳！ 我媽: 
+2025-07-19 18:57:55,369 - INFO - 批处理键: ['labels', 'idx_memes', 'image_descriptions', 'text_contents', 'image_features', 'text_features']
+2025-07-19 18:57:55,369 - INFO - 图像特征形状: torch.Size([1, 768])
+2025-07-19 18:57:55,369 - INFO - 文本特征形状: torch.Size([1, 768])
+2025-07-19 18:57:55,369 - INFO - 数据集测试成功!
+2025-07-19 18:58:13,079 - INFO - === 开始简化CoT训练 ===
+2025-07-19 18:58:13,079 - INFO - 训练配置: 批次大小=16, 学习率=0.0001, 最大轮数=3
+2025-07-19 18:58:19,429 - INFO - 训练样本数量: 7199
+2025-07-19 18:58:19,429 - INFO - 验证样本数量: 501
+2025-07-19 18:58:19,429 - INFO - 测试样本数量: 2401
+2025-07-19 18:58:40,544 - INFO - 开始训练简化CoT模型...
+2025-07-19 19:00:29,451 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:00:29,452 - INFO - 模型设备: cuda:0
+2025-07-19 19:00:29,452 - INFO - 批次张量设备分布:
+2025-07-19 19:00:29,452 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:00:29,452 - INFO - 批次张量 维度信息:
+2025-07-19 19:00:29,452 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:00:29,452 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:00:29,452 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:00:29,452 - INFO -   text_contents: list (非张量)
+2025-07-19 19:00:29,452 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:00:29,452 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:00:29,514 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:00:29,514 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:02:16,123 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:02:16,123 - INFO - 模型设备: cuda:0
+2025-07-19 19:02:16,123 - INFO - 批次张量设备分布:
+2025-07-19 19:02:16,123 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:02:16,124 - INFO - 批次张量 维度信息:
+2025-07-19 19:02:16,124 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:02:16,124 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:02:16,124 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:02:16,124 - INFO -   text_contents: list (非张量)
+2025-07-19 19:02:16,124 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:02:16,124 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:02:16,170 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:02:16,170 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:04:00,182 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:04:00,182 - INFO - 模型设备: cuda:0
+2025-07-19 19:04:00,182 - INFO - 批次张量设备分布:
+2025-07-19 19:04:00,182 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:04:00,182 - INFO - 批次张量 维度信息:
+2025-07-19 19:04:00,183 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:04:00,183 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:04:00,183 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:04:00,183 - INFO -   text_contents: list (非张量)
+2025-07-19 19:04:00,183 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:04:00,183 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:04:00,257 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:04:00,257 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:05:45,077 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:05:45,077 - INFO - 模型设备: cuda:0
+2025-07-19 19:05:45,078 - INFO - 批次张量设备分布:
+2025-07-19 19:05:45,078 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:05:45,078 - INFO - 批次张量 维度信息:
+2025-07-19 19:05:45,078 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:05:45,078 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:05:45,078 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:05:45,078 - INFO -   text_contents: list (非张量)
+2025-07-19 19:05:45,078 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:05:45,078 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:05:45,130 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:05:45,130 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:07:29,993 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:07:29,993 - INFO - 模型设备: cuda:0
+2025-07-19 19:07:29,993 - INFO - 批次张量设备分布:
+2025-07-19 19:07:29,993 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:07:29,993 - INFO - 批次张量 维度信息:
+2025-07-19 19:07:29,993 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:07:29,993 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:07:29,993 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:07:29,993 - INFO -   text_contents: list (非张量)
+2025-07-19 19:07:29,993 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:07:29,993 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:07:30,047 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:07:30,047 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:09:14,696 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:09:14,696 - INFO - 模型设备: cuda:0
+2025-07-19 19:09:14,696 - INFO - 批次张量设备分布:
+2025-07-19 19:09:14,696 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:09:14,696 - INFO - 批次张量 维度信息:
+2025-07-19 19:09:14,696 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:09:14,696 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:09:14,696 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:09:14,696 - INFO -   text_contents: list (非张量)
+2025-07-19 19:09:14,696 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:09:14,696 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:09:14,749 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:09:14,749 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:10:59,645 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:10:59,645 - INFO - 模型设备: cuda:0
+2025-07-19 19:10:59,646 - INFO - 批次张量设备分布:
+2025-07-19 19:10:59,646 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:10:59,646 - INFO - 批次张量 维度信息:
+2025-07-19 19:10:59,646 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:10:59,646 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:10:59,646 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:10:59,646 - INFO -   text_contents: list (非张量)
+2025-07-19 19:10:59,646 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:10:59,646 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:10:59,698 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:10:59,698 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:12:44,750 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:12:44,750 - INFO - 模型设备: cuda:0
+2025-07-19 19:12:44,750 - INFO - 批次张量设备分布:
+2025-07-19 19:12:44,750 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:12:44,750 - INFO - 批次张量 维度信息:
+2025-07-19 19:12:44,750 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:12:44,750 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:12:44,750 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:12:44,750 - INFO -   text_contents: list (非张量)
+2025-07-19 19:12:44,750 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:12:44,750 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:12:44,803 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:12:44,804 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:14:29,601 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:14:29,602 - INFO - 模型设备: cuda:0
+2025-07-19 19:14:29,602 - INFO - 批次张量设备分布:
+2025-07-19 19:14:29,602 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:14:29,602 - INFO - 批次张量 维度信息:
+2025-07-19 19:14:29,602 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:14:29,602 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:14:29,602 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:14:29,602 - INFO -   text_contents: list (非张量)
+2025-07-19 19:14:29,602 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:14:29,602 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:14:29,654 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:14:29,654 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:16:14,566 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:16:14,566 - INFO - 模型设备: cuda:0
+2025-07-19 19:16:14,566 - INFO - 批次张量设备分布:
+2025-07-19 19:16:14,566 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:16:14,566 - INFO - 批次张量 维度信息:
+2025-07-19 19:16:14,566 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:16:14,566 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:16:14,566 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:16:14,566 - INFO -   text_contents: list (非张量)
+2025-07-19 19:16:14,566 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:16:14,566 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:16:14,620 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:16:14,621 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:17:59,627 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:17:59,627 - INFO - 模型设备: cuda:0
+2025-07-19 19:17:59,627 - INFO - 批次张量设备分布:
+2025-07-19 19:17:59,627 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:17:59,627 - INFO - 批次张量 维度信息:
+2025-07-19 19:17:59,627 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:17:59,627 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:17:59,627 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:17:59,627 - INFO -   text_contents: list (非张量)
+2025-07-19 19:17:59,627 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:17:59,627 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:17:59,681 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:17:59,681 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:19:46,128 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:19:46,128 - INFO - 模型设备: cuda:0
+2025-07-19 19:19:46,128 - INFO - 批次张量设备分布:
+2025-07-19 19:19:46,128 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:19:46,129 - INFO - 批次张量 维度信息:
+2025-07-19 19:19:46,129 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:19:46,129 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:19:46,129 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:19:46,129 - INFO -   text_contents: list (非张量)
+2025-07-19 19:19:46,129 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:19:46,129 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:19:46,181 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:19:46,181 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:21:32,757 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:21:32,757 - INFO - 模型设备: cuda:0
+2025-07-19 19:21:32,757 - INFO - 批次张量设备分布:
+2025-07-19 19:21:32,758 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:21:32,758 - INFO - 批次张量 维度信息:
+2025-07-19 19:21:32,758 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:21:32,758 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:21:32,758 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:21:32,758 - INFO -   text_contents: list (非张量)
+2025-07-19 19:21:32,758 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:21:32,758 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:21:32,811 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:21:32,811 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:23:19,268 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:23:19,269 - INFO - 模型设备: cuda:0
+2025-07-19 19:23:19,269 - INFO - 批次张量设备分布:
+2025-07-19 19:23:19,269 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:23:19,269 - INFO - 批次张量 维度信息:
+2025-07-19 19:23:19,269 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:23:19,269 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:23:19,269 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:23:19,269 - INFO -   text_contents: list (非张量)
+2025-07-19 19:23:19,269 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:23:19,269 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:23:19,321 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:23:19,322 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:27:52,206 - INFO - === 开始简化CoT训练 ===
+2025-07-19 19:27:52,206 - INFO - 训练配置: 批次大小=16, 学习率=0.0001, 最大轮数=3
+2025-07-19 19:27:58,493 - INFO - 训练样本数量: 7199
+2025-07-19 19:27:58,494 - INFO - 验证样本数量: 501
+2025-07-19 19:27:58,494 - INFO - 测试样本数量: 2401
+2025-07-19 19:28:12,297 - ERROR - 训练过程中出现错误: can't set attribute 'device'
+2025-07-19 19:33:38,048 - INFO - === 开始简化CoT训练 ===
+2025-07-19 19:33:38,048 - INFO - 训练配置: 批次大小=16, 学习率=0.0001, 最大轮数=3
+2025-07-19 19:33:45,331 - INFO - 训练样本数量: 7199
+2025-07-19 19:33:45,332 - INFO - 验证样本数量: 501
+2025-07-19 19:33:45,332 - INFO - 测试样本数量: 2401
+2025-07-19 19:33:58,580 - INFO - 设备管理器初始化，使用设备: cuda
+2025-07-19 19:34:05,517 - INFO - 使用GPU训练，设备数量: 1
+2025-07-19 19:34:05,518 - INFO - 当前GPU: NVIDIA A800 80GB PCIe
+2025-07-19 19:34:05,528 - INFO - 开始训练简化CoT模型...
+2025-07-19 19:35:49,939 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:35:49,940 - INFO - 模型设备: cuda:0
+2025-07-19 19:35:49,940 - INFO - 批次张量设备分布:
+2025-07-19 19:35:49,940 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:35:49,940 - INFO - 批次张量 维度信息:
+2025-07-19 19:35:49,940 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:35:49,940 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:35:49,940 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:35:49,940 - INFO -   text_contents: list (非张量)
+2025-07-19 19:35:49,940 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:35:49,940 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:35:50,024 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:35:50,099 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:35:50,100 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:37:28,418 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:37:28,418 - INFO - 模型设备: cuda:0
+2025-07-19 19:37:28,419 - INFO - 批次张量设备分布:
+2025-07-19 19:37:28,419 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:37:28,419 - INFO - 批次张量 维度信息:
+2025-07-19 19:37:28,419 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:37:28,419 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:37:28,419 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:37:28,419 - INFO -   text_contents: list (非张量)
+2025-07-19 19:37:28,419 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:37:28,419 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:37:28,420 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:37:28,475 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:37:28,476 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:39:08,148 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:39:08,148 - INFO - 模型设备: cuda:0
+2025-07-19 19:39:08,148 - INFO - 批次张量设备分布:
+2025-07-19 19:39:08,149 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:39:08,149 - INFO - 批次张量 维度信息:
+2025-07-19 19:39:08,149 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:39:08,149 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:39:08,149 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:39:08,149 - INFO -   text_contents: list (非张量)
+2025-07-19 19:39:08,149 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:39:08,149 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:39:08,154 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:39:08,225 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:39:08,226 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:40:46,825 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:40:46,825 - INFO - 模型设备: cuda:0
+2025-07-19 19:40:46,825 - INFO - 批次张量设备分布:
+2025-07-19 19:40:46,825 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:40:46,825 - INFO - 批次张量 维度信息:
+2025-07-19 19:40:46,825 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:40:46,825 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:40:46,826 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:40:46,826 - INFO -   text_contents: list (非张量)
+2025-07-19 19:40:46,826 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:40:46,826 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:40:46,827 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:40:46,889 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:40:46,889 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:42:28,827 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:42:28,827 - INFO - 模型设备: cuda:0
+2025-07-19 19:42:28,827 - INFO - 批次张量设备分布:
+2025-07-19 19:42:28,827 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:42:28,827 - INFO - 批次张量 维度信息:
+2025-07-19 19:42:28,827 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:42:28,827 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:42:28,827 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:42:28,827 - INFO -   text_contents: list (非张量)
+2025-07-19 19:42:28,827 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:42:28,827 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:42:28,829 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:42:28,892 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:42:28,892 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:44:10,140 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:44:10,141 - INFO - 模型设备: cuda:0
+2025-07-19 19:44:10,141 - INFO - 批次张量设备分布:
+2025-07-19 19:44:10,141 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:44:10,141 - INFO - 批次张量 维度信息:
+2025-07-19 19:44:10,141 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:44:10,141 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:44:10,141 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:44:10,141 - INFO -   text_contents: list (非张量)
+2025-07-19 19:44:10,141 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:44:10,141 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:44:10,142 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:44:10,204 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:44:10,204 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:45:50,604 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:45:50,605 - INFO - 模型设备: cuda:0
+2025-07-19 19:45:50,605 - INFO - 批次张量设备分布:
+2025-07-19 19:45:50,605 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:45:50,605 - INFO - 批次张量 维度信息:
+2025-07-19 19:45:50,605 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:45:50,605 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:45:50,605 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:45:50,605 - INFO -   text_contents: list (非张量)
+2025-07-19 19:45:50,605 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:45:50,605 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:45:50,606 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:45:50,671 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:45:50,671 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:47:32,651 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:47:32,651 - INFO - 模型设备: cuda:0
+2025-07-19 19:47:32,651 - INFO - 批次张量设备分布:
+2025-07-19 19:47:32,651 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:47:32,651 - INFO - 批次张量 维度信息:
+2025-07-19 19:47:32,652 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:47:32,652 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:47:32,652 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:47:32,652 - INFO -   text_contents: list (非张量)
+2025-07-19 19:47:32,652 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:47:32,652 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:47:32,653 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:47:32,716 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:47:32,716 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:49:12,358 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:49:12,358 - INFO - 模型设备: cuda:0
+2025-07-19 19:49:12,358 - INFO - 批次张量设备分布:
+2025-07-19 19:49:12,358 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:49:12,358 - INFO - 批次张量 维度信息:
+2025-07-19 19:49:12,358 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:49:12,358 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:49:12,358 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:49:12,358 - INFO -   text_contents: list (非张量)
+2025-07-19 19:49:12,358 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:49:12,358 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:49:12,360 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:49:12,426 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:49:12,426 - INFO - 连接成功: torch.Size([16, 64])
+2025-07-19 19:50:50,198 - INFO - 批次设备一致性检查通过: cuda:0
+2025-07-19 19:50:50,198 - INFO - 模型设备: cuda:0
+2025-07-19 19:50:50,198 - INFO - 批次张量设备分布:
+2025-07-19 19:50:50,199 - INFO -   cuda:0: ['labels', 'image_features', 'text_features']
+2025-07-19 19:50:50,199 - INFO - 批次张量 维度信息:
+2025-07-19 19:50:50,199 - INFO -   labels: torch.Size([16]) (设备: cuda:0)
+2025-07-19 19:50:50,199 - INFO -   idx_memes: list (非张量)
+2025-07-19 19:50:50,199 - INFO -   image_descriptions: list (非张量)
+2025-07-19 19:50:50,199 - INFO -   text_contents: list (非张量)
+2025-07-19 19:50:50,199 - INFO -   image_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:50:50,199 - INFO -   text_features: torch.Size([16, 768]) (设备: cuda:0)
+2025-07-19 19:50:50,200 - INFO - 将模型从 cuda:0 移动到 cuda
+2025-07-19 19:50:50,262 - INFO - 连接张量形状: [torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64]), torch.Size([1, 64])]
+2025-07-19 19:50:50,262 - INFO - 连接成功: torch.Size([16, 64])
