@@ -2,7 +2,7 @@
 <h3 font-size:40px align="center">Dual-Path Reasoning with Consistency Constraints</h3>
 
 <p align="center">
-  <img src="code/MemeCLIP_CoT_Framework.png" alt="MemeCLIP-CoT Framework Architecture" width="800" />
+  <img src="code/MemeCLIP_CoT_Architecture.png" alt="MemeCLIP-CoT Framework Architecture" width="900" />
 </p>
 
 This repository contains **MemeCLIP-CoT**, a multimodal meme detection framework that integrates **Chain of Thought (CoT) reasoning** with dual-path classification architecture. This framework introduces sophisticated reasoning mechanisms for improved meme understanding and classification.
@@ -197,7 +197,10 @@ This enhanced MemeCLIP-CoT is particularly effective for:
 ## 📚 Additional Resources
 
 - **Detailed Documentation**: See `code/README_CoT.md` for comprehensive technical details
-- **Framework Visualization**: Run `python framework_diagram.py` to generate architecture diagrams
+- **Architecture Diagrams**: 
+  - Main architecture: `code/MemeCLIP_CoT_Architecture.png`
+  - Detailed CoT flow: `code/CoT_Detailed_Flow.png`
+  - Generate new diagrams: `python generate_architecture_diagram.py`
 - **Chinese Dataset**: Includes Chinese meme dataset (`CNmeme/`) for testing
 
 ## Citation
